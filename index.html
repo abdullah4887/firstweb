@@ -1,0 +1,397 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+    <title>Admordlead</title>
+    <style>
+      section {
+        padding: 1rem 0;
+      }
+      .navbar-toggler {
+        margin-left: auto;
+      }
+      .bg-image-section {
+        /* background: url(assets/admord-bg-1.webp),
+          linear-gradient(#202020, #1d1c1c);
+        background-position: center center;
+        background-size: cover;
+        height: 50%; */
+        /* background-image: url(assets/admord-bg-1.webp);
+        background-size: cover; Adjust the sizing of the background image
+        background-position: center center; */
+        background: linear-gradient(
+            rgba(42, 42, 90, 0.596),
+            rgba(0, 0, 0, 0.733)
+          ),
+          url(assets/admord-bg-1.webp);
+        background-size: cover;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!--navbar-->
+    <nav class="navbar section navbar-transparent navbar-expand-md bg-dark navbar-dark fixed-top">
+      <div class="container-xxl">
+        <img
+          src="assets/admord-logo.webp"
+          alt="admord-logo"
+          style="height: 20%; width: 20%; margin-left: 0"
+        />
+
+        <!--toggle button-->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main-nav"
+          aria-controls="main-nav"
+          aria-expanded="false"
+          aria-label="Toggle-navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--navbar links-->
+
+        <div
+          class="collapse navbar-collapse justify-content-end align-center"
+          id="main-nav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active fw-bold text-light"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold text-light" href="#publishers"
+                >Publishers</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold text-light" href="#what-we-do"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold text-light" href="#about-us"
+                >About Us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold text-light" href="#contact-us"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section
+      class="bg-image-section p-5 align-center justify-content-center mt-5"
+    >
+      <div class="overlay text-center text-light my-5">
+        <h1 class="name fw-bolder">Adm<span>ord</span>lead</h1>
+        <p class="text-light">Experiencing Quality Lead That Will Increase</p>
+        <p class="text-light">Your Revenue....</p>
+      </div>
+    </section>
+
+    <section class="bg-dark" id="publishers">
+      <div class="container-lg px-4">
+        <div class="row justify-content-around">
+          <div class="col-sm-4 col-lg-6 text-center mb-5">
+            <h1 class="text-secondary mb-4">Publishers</h1>
+            <p class="text-light text-center">
+              Increase revenue and produce large volumes of sales using <br />
+              high-quality traffic.
+            </p>
+          </div>
+          <div class="col-sm-4 col-lg-6 text-center">
+            <h1 class="text-secondary mb-4">Advertisers</h1>
+            <p class="text-light text-center">
+              Join our network and reach thousands of publishers with <br />
+              your offer!
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="cards">
+        <div class="card">
+          <div class="icon"><i class="bi bi-bar-chart"></i></div>
+          <h2>Analytics and Marketplace</h2>
+          Grid 1
+        </div>
+        <div class="card">
+          <div class="icon"><i class="bi bi-bar-chart"></i></div>
+          <h2>Analytics and Marketplace</h2>
+          Grid 2
+        </div>
+        <div class="card">Grid 3</div>
+        <div class="card">Grid 4</div>
+        <div class="card">Grid 5</div>
+        <div class="card">Grid 6</div>
+      </div> -->
+    </section>
+
+    <section class="section section2">
+      <div class="card-container">
+        <div class="my-card">
+          <div class="top">
+            <i class="bi bi-bar-chart"></i>
+          </div>
+          <div class="mid">
+            <h2>Analytics and Marketplace.</h2>
+          </div>
+          <div class="bottom">
+            We offer you a realtime examination of your statistics and can
+            quickly connect to hundreds of Advertisers.
+          </div>
+        </div>
+        <div class="my-card">
+          <div class="top">
+            <i class="bi bi-currency-dollar"></i>
+          </div>
+          <div class="mid">
+            <h2>Guaranteed Transactions</h2>
+          </div>
+          <div class="bottom">
+            Multiple payment options and plans to choose from.
+          </div>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="my-card">
+          <div class="top">
+            <i class="bi bi-credit-card"></i>
+          </div>
+          <div class="mid">
+            <h2>High Payouts</h2>
+          </div>
+          <div class="bottom">
+            Ultimately, we serve you. We're here to assist you to maximize your
+            profits.
+          </div>
+        </div>
+        <div class="my-card">
+          <div class="top">
+            <i class="bi bi-people"></i>
+          </div>
+          <div class="mid">
+            <h2>Team</h2>
+          </div>
+          <div class="bottom">
+            We have team of young and talented people who are always ready to
+            help you.
+          </div>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="my-card">
+          <div class="top">
+            <i class="bi bi-award"></i>
+          </div>
+          <div class="mid">
+            <h2>Rewards</h2>
+          </div>
+          <div class="bottom">
+            We believe in treating our Publishers to the best gifts and prizes.
+          </div>
+        </div>
+        <div class="my-card">
+          <div class="top">
+            <i class="bi bi-megaphone"></i>
+          </div>
+          <div class="mid">
+            <h2>Campaigns</h2>
+          </div>
+          <div class="bottom">
+            We only use sponsored content and marketing that can really help
+            you.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-light">
+      <div class="container">
+        <div class="text-center">
+          <h3 class="mb-3">Our Specialization</h3>
+          <p class="sub__title">Admorlead will get you your desired results</p>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <p>
+              Admordlead is the company to use if you're seeking for large
+              volume, quality user acquisition on the web. We provide risk-free
+              options for lead generation marketing to attract customers.
+            </p>
+            <p>
+              Using our 100% performance-based strategy, you will not have to
+              pay for clicks or impressions and will only be charged when you
+              receive actual, qualified leads. Your campaigns can be designed
+              and configured for live distribution on our Network with the help
+              of our knowledgeable staff of campaign managers.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-----services------->
+    <section class="section section__4" id="what-we-do">
+      <div class="section__4__box">
+        <h2 class="header">What We Do</h2>
+        <div class="services__box">
+          <div class="service__box">
+            <div class="icon-box"><i class="bi bi-facebook"></i></div>
+            <div class="service-details">
+              <p class="top">Social media marketing</p>
+              <div class="bottom">
+                We have the best social campaigns for every industry, and we
+                provide you the insider tips you need to expand across all the
+                main social media channels because social media marketing is
+                here to stay.
+              </div>
+            </div>
+          </div>
+          <div class="service__box">
+            <div class="icon-box"><i class="bi bi-brightness-low"></i></div>
+            <div class="service-details">
+              <p class="top">Conceptual Marketing</p>
+              <div class="bottom">
+                We have campaigns that provide a quick plugin option for your
+                Contextual PPV traffic.
+              </div>
+            </div>
+          </div>
+          <div class="service__box">
+            <div class="icon-box"><i class="bi bi-google"></i></i></div>
+            <div class="service-details">
+              <p class="top">Search Engine optimization</p>
+              <div class="bottom">
+                We guarantee that our comprehensive services will help your
+                company expand, get more exposure, and bring in more money.
+              </div>
+            </div>
+          </div>
+          <div class="service__box">
+            <div class="icon-box"><i class="bi bi-credit-card"></i></i></div>
+            <div class="service-details">
+              <p class="top">Payment Term</p>
+              <div class="bottom">
+                We use a variety of payment options, including wire transfer,
+                PayPal, and Payoneer.
+              </div>
+            </div>
+          </div>
+          <div class="service__box">
+            <div class="icon-box"><i class="bi bi-badge-hd"></i></i></div>
+            <div class="service-details">
+              <p class="top">Display marketing</p>
+              <div class="bottom">
+                We provide a broad variety of layout options of Display
+                marketing. We provide bespoke services to our clients.
+              </div>
+            </div>
+          </div>
+          <div class="service__box">
+            <div class="icon-box"><i class="bi bi-trophy"></i></div>
+            <div class="service-details">
+              <p class="top">Exclusive offers</p>
+              <div class="bottom">
+                We aim to give our Publishers with the finest possible Ad
+                campaigns and pay them the highest rates in the market. We
+                exclusively work with the most prominent advertisers since they
+                provide the best return on investment (ROI).
+              </div>
+            </div>
+          </div>
+          <div class="service__box">
+            <div class="icon-box"><i class="bi bi-arrow-90deg-right"></i></div>
+            <div class="service-details">
+              <p class="top">Lead generation</p>
+              <div class="bottom">
+                We only work with verified, categorized, and opt-in leads. We
+                promise not just quantity, but also excellence. We only provide
+                CPL deals that can be easily converted and optimized.
+              </div>
+            </div>
+          </div>
+          <div class="service__box">
+            <div class="icon-box"><i class="bi bi-envelope-at"></i></div>
+            <div class="service-details">
+              <p class="top">Email marketing</p>
+              <div class="bottom">
+                When it comes to email marketing, we provide a broad variety of
+                layout options. We provide bespoke Display Ad design services
+                for those that need it.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about-us" class="section section__5">
+      <div class="title">About Us</div>
+      <div class="body">
+        <div class="icon"><i class="bi bi-check-lg"></i></div>
+        <div class="details">Admordlead is a global leading in Performance Marketing and Lead Generation.</div>
+      </div>
+      <div class="body">
+        <div class="icon"><i class="bi bi-check-lg"></i></div>
+        <div class="details">At Admordlead we believe that business is done through understanding. This means our experienced team will work night and day to understand your needs so we can deliver you only the right offer or media.</div>
+      </div>
+      <div class="body">
+        <div class="icon"><i class="bi bi-check-lg"></i></div>
+        <div class="details">Our affiliates get exclusive offers they can find no where else as well as fast, secured payments and the best tracking systems in the market.</div>
+      </div>
+      <div class="body">
+        <div class="icon"><i class="bi bi-check-lg"></i></div>
+        <div class="details">We pride ourselves in helping our advertisers grow their business through acquisition of quality and engaged customers.</div>
+      </div>
+    </section>
+
+<section class="section__6 section" id="contact-us">
+  <div class="top">Contact Us</div><div class="mid">We are always happy to hear from you. Please feel free to contact us with any questions or comments and we will get back to you as soon as possible.</div>
+  <div class="bottom"><a href="#mail" target="_blank"><i class="bi bi-envelope"></i></a></div>
+
+</section>
+<footer class="section">
+  <div class="top">AdmordLead <span class="footer_span">- Copyright &copy; 2023</span></div>
+  <div class="bottom"><a href="#policy" target="_blank" class="footer__link">Privacy Policy </a><span class="footer_span">&#124;</span> <a href="#terms_of_service" target="_blank" class="footer__link">Terms of Service</a></div>
+</footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const tooltips = document.querySelectorAll(".tt");
+      tooltips.forEach((t) => {
+        new bootstrap.Tooltip(t);
+      });
+    </script>
+  </body>
+</html>
